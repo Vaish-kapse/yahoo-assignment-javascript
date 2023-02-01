@@ -19,14 +19,14 @@ arr.splice(3,1);
 console.log(arr);
 
 //Sum of all elements in array
-let sum-arr.reduce((acc, curr)=>(acc+curr)); 
+let sum=arr.reduce((acc, curr)=>(acc+curr)); 
 console.log(sum);
 
  //Check if all elements in array are>10 
- let allGreater ThanTen arr.every(x=>>>10);
- console.log(allGreater ThanTen);
+ let allGreaterThanTen =arr.every(x=>x>10);
+ console.log(allGreaterThanTen);
 
 
 //Check if either of element in array is 0 
-let anyZero-arr, some (x=x===0); 
+let anyZero=arr.some (x=>x===0); 
 console.log(anyZero);
